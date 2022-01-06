@@ -45,6 +45,9 @@ async function displayTodos() {
     
 }
 
+window.addEventListener('load', async() => {
+    displayTodos();
+});
 // add an on load listener that fetches and displays todos on load
 
 logoutButton.addEventListener('click', () => {
